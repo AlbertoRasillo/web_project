@@ -1,0 +1,69 @@
+/*css general*/
+body{
+	text-align: center;
+}
+#contenedor{
+	width:100%;
+	margin: 10px auto;
+	text-align: left;
+}
+article{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+	font: 0.8em verdana, sans-serif;
+}
+#pie{
+	background: #E6E0F8;
+	text-align: center;
+	width: 100%;
+}
+#salir{
+	float: right;
+}
+a, img{
+	border:none;
+}
+a:link{
+	text-decoration: none;
+}
+th{
+	text-align: inherit;
+	background: #CCCCCC;
+	color: #000000;
+}
+/*Inicio css pagina principal*/
+#cabecera_pri{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding-left: 10px;
+	min-width: 450px;
+}
+#menu_pri li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+}
+#menu_pri li:hover{
+	display: inline-block;
+	background: #FACC2E;
+	color: #D8D8D8;
+}
+#menu_pri{
+	font: bold 1em verdana, sans-serif;
+	width: 100%;
+}
+#seccion_pri{
+	float:left;
+	width:100%;
+	margin:10px auto;
+}
+/* Listado archivos*/
+#tablon tr:nth-child(n+2):nth-child(-n+6) {background: #FE2E2E}
+#tablon tr:nth-child(n+6) {background: #F5A9D0}
+#tablon{
+	width: 100%;
+}
+#anadir{width: 15px;}
+/*Fin css pagina principal*/
